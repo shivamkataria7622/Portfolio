@@ -1,6 +1,6 @@
 import React from 'react'
 import {HERO_CONTENT} from "../constants"
-import myimg from "../assets/projects/clg2.jpg"
+import myimg from "../assets/projects/my.jpeg"
 import { motion } from "framer-motion"
  
 const container = (delay) => ({
@@ -34,7 +34,7 @@ const Hero = () => {
       </motion.span>
       <motion.p variants={container(1)}
       initial="hidden"
-      animate="visible"  className=' ml-5 max-w-xl py-6 font-light tracking-tighter'>{HERO_CONTENT}</motion.p>
+      animate="visible"  className=' ml-5 max-w-xxl py-6 font-light tracking-tighter'>{HERO_CONTENT}</motion.p>
       </div>
      </div>
      <div className='w-full lg:w-1/2 lg:p-8'> 

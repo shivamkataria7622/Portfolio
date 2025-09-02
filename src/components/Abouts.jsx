@@ -32,7 +32,7 @@ const Abouts = () => {
             <div className="flex justify-center lg:justify-start">
               <motion.p  variants={container(1)}
       initial={{x:100,opacity:0}}
-      animate="visible" className=' max-w-xl py-6 font-light tracking-tighter'>{ABOUT_TEXT}</motion.p>
+      animate="visible" className=' max-w-2xl py-6 font-light tracking-tighter'>{ABOUT_TEXT}</motion.p>
             </div>
           </div>
       </div>
